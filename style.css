@@ -1,13 +1,4 @@
 h1 {
-  padding: 60px 0;
-  margin: 0;
-  margin-bottom: 20px;  
-  height: 50px;
-  width: 600;  
-  background-color: rgb(12, 11, 11);
-  color: rgb(238, 255, 0);
-  font-size: 60px;
-  font-weight: bold;
 }
 
 h2 {
@@ -27,7 +18,7 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: #333;
-    background: #efeee7;
+    background: #413f31;
   }
 
 img {
@@ -54,15 +45,8 @@ ul {
   color: rgb(34, 16, 134);
   width: 770px;
 }
-.box-set {
     
-    height: 400px;
-    width: 400px;
-    background: rgb(68, 50, 2);
-    top: 100;
-    right: -40px;
-    
-  }
+
 #contact-info {
     width: 30%;
   }
