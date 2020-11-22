@@ -13,9 +13,11 @@
 
 <body>
  
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Latitude</a>
+  <!--NAVIGATION BAR Begin-->
+  <nav class="navbar navbar-expand-lg navbar-dark p-3 mb-2 bg-primary">
+    <a class= "navbar-brand" href="index.html" >Latitude</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    
       <span class="navbar-toggler-icon"></span>
     
     </button>
@@ -44,19 +46,27 @@
           <a class="nav-link" href="Data.html">Data</a>
         </li>
       </ul>
-      
-  </nav> 
+   
+  </nav>
+<!--NAVIGATION BAR END--> 
 
   
- <h1>Max Temperature</h1>
+ <div></div><h1>Max Temperature</h1></div>
   <div>
     <figure class="box-set "><img src= "figures\1_Temperature in World Cities based on Latitude.png"  alt="Paul Bunyan"></figure>
+    <figure class="box-set "><img src="figures\z_02_1a_Tempratue_vrs_Latitutde_Nor.png" alt="cloud"></figure>
+    <figure class="box-set "><img src="figures\z_02_1b_Tempratue_vrs_Latitutde_Southern.png" alt="cloud"></figure>
+      <u><b><i><p><h4><b>Analaysis</b></h4></p></i></b></u> 
+      <p>Temperature to latitude data was as expected. Temperatures near the equator trend higher than other regions (Graph: Temperatures in world Cities based on Latitude). A second graph was constructed to overlay data from both hemispheres to contrast trends (Graph: Temperature in World Cities base on Latitude). Linear regression analysis shows a similar comparison between temperatures for both hemispheres. the slopes for both Northern hemisphere and Southern hemisphere were similar (North -0.83: South -0.67). R2 values correlation imply a medium correlation to the data plotted (North 0.68: South 0.46).</p>
   </div>
   
-  
+
+
+ <!--Needed for Bootstrap Begin--> 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <!--Needed for Bootstrap end--> 
 </body>
 
 </html>

@@ -13,46 +13,55 @@
 
 <body>
  
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Latitude</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <!--DROP DOWN MENU ADD LINKS TO ITEMS IN THE DROP DOWN-->
-        <li class="nav-item drodown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Plots
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
-            <a class="dropdown-item" href="humid.html">Humidity</a>
-            <a class="dropdown-item" href="cloud.html">Cloudiness</a>
-            <a class="dropdown-item" href="wind.html">Wind Speed</a>
-            <div class="dropdown-divider"></div>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <!-- Remaining items in list-->
-        <li class="nav-item active">
-          <a class="nav-link" href="Comp.html">Comparison<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Data.html">Data</a>
-        </li>
-      </ul>
-      
-  </nav> 
-
-
-  <div><h2>Humidity</h2></div>
+ <!--NAVIGATION BAR Begin-->
+ <nav class="navbar navbar-expand-lg navbar-dark p-3 mb-2 bg-primary">
+  <a class= "navbar-brand" href="index.html" >Latitude</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
   
-  <div>
-    <figure class="box-set "><img src= "figures\2_humid.png"  alt="Humidity"></figure>
-  </div>
+    <span class="navbar-toggler-icon"></span>
+  
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <!--DROP DOWN MENU ADD LINKS TO ITEMS IN THE DROP DOWN-->
+      <li class="nav-item drodown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+          <a class="dropdown-item" href="humid.html">Humidity</a>
+          <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+          <a class="dropdown-item" href="wind.html">Wind Speed</a>
+          <div class="dropdown-divider"></div>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <!-- Remaining items in list-->
+      <li class="nav-item active">
+        <a class="nav-link" href="Comp.html">Comparison<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Data.html">Data</a>
+      </li>
+    </ul>
+ 
+</nav>
+<!--NAVIGATION BAR Begin--> 
+
+
+<div><h1>Humidity</h1></div>
+<div></div>  
+<div>
+  <figure class="box-set "><img src= "figures\2_humid.png"  alt="Humidity"></figure>
+  <figure class="box-set "><img src="figures\z_02_2a_Humidity_vrs_Latitude_Northern Hemisphere.png" alt="cloud"></figure>
+  <figure class="box-set "><img src="figures\z_02_2b_Humidity_vrs_Latitude_So_Hemisphere.png" alt="cloud"></figure>
+</div> 
+<u><b><i><p><h4><b>Analaysis</b></h4></p></i></b></u> 
+  <p>Global humidity data would appear to support it is warmer at the equator (Graph: Humidity of the world Cities bassed on Latitude). This is perhaps on of the more striking graphs in the collection. There is a clear uptrend in humidity towards the equator. Comparing the Northern hemisphere to the Southern hemisphere is interesting to see the contrast. Looking at a bigger sample size may be interesting.</p>
+</div>
+
 
 
 
