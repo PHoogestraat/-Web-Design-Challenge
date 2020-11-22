@@ -1,32 +1,35 @@
-h1 {
+h1 {margin-left: 100px;
 }
 
 h2 {
-  color: #ff1414;
+  color: #f71911;
+  margin-left: 100px;
 
 }
 
 h3 {
-  color: orange;
+  color: rgb(51, 8, 245);
 }
 
 body {
-    padding: 0;
+    padding: 10;
    
-    margin-left: 100px;
+    margin-left: 10 px;
+    margin-right: 10px;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
     line-height: 150%;
-    color: #333;
-    background: #413f31;
+    color: rgb(48, 40, 40);
+    background: #f1e68e;
   }
 
 img {
   box-shadow: 10px 10px 5px black;
   background: rgb(169, 169, 169);
-  height: 300px;
+  height: 275px;
   text-align: center;
-  margin-right: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
   position: center;
 }
 
@@ -37,7 +40,8 @@ section {
 p {
   font-size: 24px;
   color: #0f0101;
-  margin-left: 20px;
+  margin-left: 100px;
+  margin-right: 200px;
 }
 
 ul {

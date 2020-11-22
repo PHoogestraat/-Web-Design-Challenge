@@ -48,42 +48,56 @@
       </ul>
    
   </nav>
-<!--NAVIGATION BAR END--> 
+  <!--NAVIGATION BAR END--> 
 
 
-    <div class="container">
-    <h1>Temprature</h1></div>
+    <!-- Creates the Overall Grid -->
+    <div class="container"></div>   
+
+        <!-- First (and only column) -->
+        <div class="row"></div>
+        
+          <div class="col-md-12 justify-content-end">
+            <h1>Max Temprature</h1>
+          </div>
+        </div>
+
+
+        <!-- Second Row GRAPHS-->
         <div class="row">
           <!--First Column in this Row-->
-              <div class="col-md-4">    
-                <figure class="box-set "><img src= "figures\1_Temperature in World Cities based on Latitude.png" alt="Humidity"></figure>
-              </div>
-
-
-              <div class="col-md-4">     
-                <figure class="box-set "><img src="figures\z_02_1a_Tempratue_vrs_Latitutde_Nor.png" alt="cloud"></figure>    
-              </div>
-
-              <div class="col-md-4">
-                <figure class="box-set "><img src="figures\z_02_1b_Tempratue_vrs_Latitutde_Southern.png" alt="cloud"></figure>
-              </div>
-
-        </div
-  
+          <div class="col-md-3">    
+            <figure class="box-set "><img src= "figures\1_Temperature in World Cities based on Latitude.png" alt="Humidity"></figure>
+            <h3 class="text-center">Figure A-1</h3>
+          </div>
+          <!--SECOND Column in this Row-->
+          <div class="col-md-3">     
+            <figure class="box-set "><img src="figures\z_02_1a_Tempratue_vrs_Latitutde_Nor.png" alt="cloud"></figure>    
+            <h3 class="text-center">Figure A-2</h3>
+          </div>
+          <!--THIRD Column in this Row-->
+          <div class="col-md-3">
+            <figure class="box-set "><img src="figures\z_02_1b_Tempratue_vrs_Latitutde_Southern.png" alt="cloud"></figure>
+            <h3 class="text-center">Figure A-3</h3>
+          </div>
+        </div>
+          
+      
+     
+      
+        <!-- Third Row -->
+        <div class="row">
+              <h2><br>Analaysis</h2>
+                <p class="text-left">Temperature to latitude data was as expected. Temperatures near the equator trend higher than other regions (Graph: Temperatures in world Cities based on Latitude). A second graph was constructed to overlay data from both hemispheres to contrast trends (Graph: Temperature in World Cities base on Latitude). Linear regression analysis shows a similar comparison between temperatures for both hemispheres. the slopes for both Northern hemisphere and Southern hemisphere were similar (North -0.83: South -0.67). R2 values correlation imply a medium correlation to the data plotted (North 0.68: South 0.46).</p>
+        </div>
+      
     </div>
-  
-  
-      <u><b><i><p><h4><b>Analaysis</b></h4></p></i></b></u> 
-      <p>Temperature to latitude data was as expected. Temperatures near the equator trend higher than other regions (Graph: Temperatures in world Cities based on Latitude). A second graph was constructed to overlay data from both hemispheres to contrast trends (Graph: Temperature in World Cities base on Latitude). Linear regression analysis shows a similar comparison between temperatures for both hemispheres. the slopes for both Northern hemisphere and Southern hemisphere were similar (North -0.83: South -0.67). R2 values correlation imply a medium correlation to the data plotted (North 0.68: South 0.46).</p>
 
-  
-
-
- <!--Needed for Bootstrap Begin--> 
+  <!--Needed for Bootstrap Begin--> 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
- <!--Needed for Bootstrap end--> 
+  <!--Needed for Bootstrap end--> 
 </body>
 
 </html>
