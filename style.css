@@ -1,4 +1,4 @@
-h1 {margin-left: 100px;
+h1 {margin-left: 50px;
 }
 
 h2 {
@@ -34,7 +34,9 @@ img {
 }
 
 section {
-  background-color: #000;
+  background-color: rgb(160, 172, 134);
+  padding-top: 0px;
+  padding-bottom: 1px
 }
 
 p {
@@ -67,3 +69,15 @@ ul {
   .margin-left-100 {
     margin-left: 100px;
   }
+  .spacer {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+.spacerbig {
+  padding-top: 100px;
+  padding-bottom: 100px
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
