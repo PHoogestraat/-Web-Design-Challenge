@@ -48,10 +48,15 @@ p {
 
 ul {
   border-style: solid;
-  color: rgb(34, 16, 134);
-  width: 770px;
+  color: rgb(249, 253, 5);
+  width: 500px;
 }
-    
+
+ulb {
+  width: 1000px;
+  margin-left: 100px;
+  margin-right: 200px;
+} 
 
 #contact-info {
     width: 30%;
