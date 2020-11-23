@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  
+
+</head>
+
+<body>
+<!--NAVIGATION BAR Begin-->
+    <nav class="navbar navbar-expand-lg navbar-dark p-3 mb-2 bg-primary">
+        <a class= "navbar-brand" href="index.html" >Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    
+        <span class="navbar-toggler-icon"></span>
+    
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                    <!--DROP DOWN MENU ADD LINKS TO ITEMS IN THE DROP DOWN-->
+                    <li class="nav-item drodown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Plots</b></a>
+                
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                            <a class="dropdown-item" href="humid.html">Humidity</a>
+                            <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+                            <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                            <div class="dropdown-divider"></div>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                        <!-- Remaining items in list-->
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Comp.html">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Data.html">Data</a>
+                    </li>
+            </ul>
+   
+    </nav>
+<!--NAVIGATION BAR End##################################################################--> 
+
+    <!-- Row 1 THE JUMBOTRON-->
+  
+    <div class="container">
+        
+    <div class="jumbotron">
+    <div class="row">
+        
+                <h1 class="display-1">Summary: Latitude vs. X</h1>
+                <!-- First (and only column) -->
+                <div class="row"></div>
+                <div class="col-md-12"> 
+                <div class="container"></div>
+                <h1>Summary: Latitude vs. X</h1>
+        
+                </div>
+                    <!-- Second Row GRAPHS-->
+                    <div class="row">
+                    <!--First Column in this Row-->
+                    <div class="col-md-10">    
+                    <figure class="box-set "><img src= "figures\2_humid.png"  alt="Humidity"></figure>
+                    <h3 class="text-center">Figure B-1</h3>
+                </div>
+                    <!--SECOND Column in this Row-->
+                            <!--The THUMBNAIL: Used two thumbnails temperary solution-->             
+        <div class="row">
+            <div class="row">
+            <div class="col-md-1">
+            <h3 class="text-center"><h2 class="display-4">Visualizations</h2></h3>
+                    <div class="thumbnail">
+                    <img src= "figures\1_Temperature in World Cities based on Latitude.png"  alt="..." class="img-thumbnail" ><a href="max_temp.html" class="btn btn-primary" role="button"><u>Temprature</u></a>
+                    <img href="humid.html"src= "figures\2_humid.png" alt="..." class="img-thumbnail"> <a href="humid.html" class="btn btn-primary" role="button"><U>Humidity</U></a>
+                </div>
+                </div>
+                </div>
+                </div>
+        <!--The THUMBNAIL Used two thumbnails temperary solution-->            
+    <div class="row">  
+    <div class="col-md-1">
+    <h3 class="text-center"><h2 class="display-4">Graphs</h2></h3>
+        <div class="thumbnail">
+            <img src= "figures\4_Cloud_cover_Latitude.png"   alt="..." class="img-thumbnail"><a href="cloud.html" class="btn btn-primary" role="button"><U>Cloud Cover</U></a>
+            <img src= "figures\3_Wind Speed  in World Cities based on Latitude.png"   alt="..." class="img-thumbnail"><a href="wind.html" class="btn btn-primary" role="button"><U>Wind Speed</U></a>
+        </div>
+    </div>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+    
+
+
+        </div>
+
+    </div>
+
+  
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
