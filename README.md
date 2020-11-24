@@ -1,5 +1,6 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
-![cover_art.png](figures/cover_art.png =100x100)
+![cover_art.png](figures/cover_art.png){width=50%)
+
 
 
 Website overivew:
