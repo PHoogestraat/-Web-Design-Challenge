@@ -66,11 +66,11 @@
             </div>
             <div class="col-md-4">    
               <figure class="box-set"><img src="figures\1com_Temp.png" alt="temp"></figure>    
-              <h2 class="text-center">Temprature Fahrenheight  (fig.A)</h2>
+              <p class="text-right">Temprature F  (fig.A)</p>
             </div>
             <div class="col-md-4">    
               <figure class="box-set "><img src="figures\1com_humid.png"  alt="Huidity"></figure>    
-              <h2 class="text-center">Humidity RH%(fig.B)</h2>
+              <p class="text-right">Humidity RH%(fig.B)</p>
             </div>
             
             <!--Second Row-->
@@ -79,15 +79,24 @@
             </div>
             <div class="col-md-4">    
               <figure class="box-set"><img src="figures\1com_cloud.png" alt="Cloud"></figure>    
-              <h2 class="text-center">Cloud Cover% (fig.C)</h2>
+              <p class="text-right">Cloud Cover% (fig.C)</p>
             </div>
             <div class="col-md-4">    
               <figure class="box-set "><img src="figures\1com_wind.png"  alt="wind"></figure>    
-              <h2 class="text-center">Wind Speed mph (fig. D)</h2>
+              <p class="text-right">Wind mph (fig.D)</p>
             </div>
 
     </div>
-
+            <!-- Third Row -->
+            <div class="row">
+              <h2><br>Analaysis</h2>
+                <p class="text-left">Temperature vs. latitude data was as expected. Temperatures near the equator trend higher than regions with higher latitude values. A second graph (fig.A ) was constructed to overlay data from both hemispheres to contrast trends. Linear regression analysis shows a similar comparison between temperatures for both hemispheres. the slopes for both northern hemisphere and southern hemisphere were similar (North -0.91: South -0.33). 
+                  R^2 values imply a medium correlation to the data plotted (North 0.77: South 0.18).
+                </p>
+                <p>Humidity, cloud cover, and wind speed would suggest that a correlation does not exist with latitude bassed on linear regression values . Humidity in the southern hemisphere does show weak correlation and has negative slope which would be consistent 
+                  with colder climates having less humidity. However the values for the northern hemisphere indicate no correlation and a positve slope. This would not be consistent with the trend. Cloud cover and windspeed also show no correlation with latitude.
+                </p>
+            </div>
 
   <div class="spacerbig"></div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
