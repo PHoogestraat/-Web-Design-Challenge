@@ -1,6 +1,6 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
-[Weather & Latitude Site]( https://phoogestraat.github.io/Web_Design_Challenge/)
+<b><u>Link:</u></b>  [Weather & Latitude Site]( https://phoogestraat.github.io/Web_Design_Challenge/)
 
 ![cover_art.png](figures/cover_art.png)
 
