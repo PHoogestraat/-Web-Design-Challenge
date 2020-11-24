@@ -1,7 +1,8 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 ![cover_art.png]((figures/cover_art.png)
 
-The website overivew:
+
+Website overivew:
 
 * A landing-page containing:
   * An explanation of the project.
