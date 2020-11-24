@@ -1,5 +1,5 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
-![cover_art.png](figures/cover_art.png){:height="36px" width="36px"}
+![cover_art.png](figures/cover_art.png){:height="10px" width="10px"}
 
 
 
